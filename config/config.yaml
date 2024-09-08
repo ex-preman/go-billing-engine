@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+database:
+  type: "inmemory"          # Available options: inmemory, mysql, postgresql
+  mysql:
+    dsn: "user:password@tcp(localhost:3306)/dbname"
+  postgresql:
+    dsn: "postgres://user:password@localhost/dbname?sslmode=disable"
